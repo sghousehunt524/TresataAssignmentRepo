@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\New AssignMent\\Assignment\\SauceLabs\\SauceLabs.csproj": {}
+    "d:\\TresataAssignment\\TresataAssignmentRepo\\SauceLabs\\SauceLabs.csproj": {}
   },
   "projects": {
-    "D:\\New AssignMent\\Assignment\\SauceLabs\\SauceLabs.csproj": {
+    "d:\\TresataAssignment\\TresataAssignmentRepo\\SauceLabs\\SauceLabs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\New AssignMent\\Assignment\\SauceLabs\\SauceLabs.csproj",
+        "projectUniqueName": "d:\\TresataAssignment\\TresataAssignmentRepo\\SauceLabs\\SauceLabs.csproj",
         "projectName": "SauceLabs",
-        "projectPath": "D:\\New AssignMent\\Assignment\\SauceLabs\\SauceLabs.csproj",
+        "projectPath": "d:\\TresataAssignment\\TresataAssignmentRepo\\SauceLabs\\SauceLabs.csproj",
         "packagesPath": "C:\\Users\\kumar\\.nuget\\packages\\",
-        "outputPath": "D:\\New AssignMent\\Assignment\\SauceLabs\\obj\\",
+        "outputPath": "d:\\TresataAssignment\\TresataAssignmentRepo\\SauceLabs\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
