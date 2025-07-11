@@ -42,8 +42,14 @@ Feature: SauceDemo E-Commerce Functionality
     Then I should see an error message "<error_message>"
 
     Examples:
-      | username        | password       | error_message                                                                 |
-      |                 | secret_sauce   | Epic sadface: Username is required                                            |
-      | standard_user   |                | Epic sadface: Password is required                                            |
-      | locked_out_user | secret_sauce   | Epic sadface: Sorry, this user has been locked out.                           |
-      | invalid_user    | invalid_pass   | Epic sadface: Username and password do not match any user in this service     |
+      | username        | password     | error_message                                                             |
+      |                 | secret_sauce | Epic sadface: Username is required                                        |
+      | standard_user   |              | Epic sadface: Password is required                                        |
+      | locked_out_user | secret_sauce | Epic sadface: Sorry, this user has been locked out.                       |
+      | invalid_user    | invalid_pass | Epic sadface: Username and password do not match any user in this service |
+
+  #Bug Investigation Scenario
+  Scenario: Cart badge does not update after adding a product
+    Given I am logged in as "standard_user" with password "secret_sauce"
+    When I add the product "Sauce Labs Backpack" to the cart
+    Then I should see the cart badge updated to "1"
